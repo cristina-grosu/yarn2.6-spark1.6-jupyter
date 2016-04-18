@@ -1,16 +1,4 @@
 # .bashrc
-
-# User specific aliases and functions
-
-alias rm='rm -i'
-alias cp='cp -i'
-alias mv='mv -i'
-
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
-fi
-
 export JAVA_HOME=/opt/jdk1.8.0_72
 export JRE_HOME=/opt/jdk1.8.0_72/jre
 export PATH=$PATH:/opt/jdk1.8.0_72/bin:/opt/jdk1.8.0_72/jre/bin:$HADOOP_HOME/sbin:$HADOOP_HOME/bin
