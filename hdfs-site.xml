@@ -89,7 +89,7 @@
 <property>
   <name>dfs.nfs.keytab.file</name>
   <value>/root/hdfs.keytab</value> --><!-- path to the HDFS keytab -->
-<--</property>
+<--</property>-->
 <property>
   <name>dfs.nfs.kerberos.principal</name>
     <value>hdfs/_HOST@TESTHOST.LOCAL</value>
