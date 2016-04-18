@@ -1,8 +1,8 @@
 # .bashrc
 # Source global definitions
-if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
-fi
+#if [ -f /etc/bashrc ]; then
+#	. /etc/bashrc
+#fi
 
 export JAVA_HOME=/opt/jdk1.8.0_72
 export JRE_HOME=/opt/jdk1.8.0_72/jre
