@@ -51,7 +51,7 @@ ENV HADOOP_HOME /opt/hadoop
 
 ADD core-site.xml /opt/hadoop/etc/hadoop
 ADD hdfs-site.xml /opt/hadoop/etc/hadoop
-ADD mapred-site.xml /opt/hadoop/etc/hadoop
+ADD mapred-env.sh /opt/hadoop/etc/hadoop
 ADD yarn-site.xml /opt/hadoop/etc/hadoop
 ADD yarn-env.sh /opt/hadoop/etc/hadoop
 ADD hadoop-env.sh /opt/hadoop/etc/hadoop
