@@ -6,7 +6,7 @@ USER root
 RUN apt-get clean all; \
     apt-get install -y rpm; \
     rpm --rebuilddb; \
-    apt-get install -y curl tar wget sudo openssh-server openssh-clients rsync vim ssh
+    apt-get install -y curl tar wget sudo openssh-server rsync vim ssh
 
 # Install.
 RUN \
