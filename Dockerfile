@@ -56,7 +56,7 @@ ADD yarn-site.xml /opt/hadoop/etc/hadoop
 ADD yarn-env.sh /opt/hadoop/etc/hadoop
 ADD hadoop-env.sh /opt/hadoop/etc/hadoop
 
-RUN bash /opt/hadoop/etc/hadoop/hadoop-env.sh
+RUN ./opt/hadoop/etc/hadoop/hadoop-env.sh
 
 # Install Spark 1.6.0
 RUN cd /opt && wget http://apache.javapipe.com/spark/spark-1.6.0/spark-1.6.0-bin-hadoop2.6.tgz 
