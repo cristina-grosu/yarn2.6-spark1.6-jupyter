@@ -53,7 +53,7 @@ ADD core-site.xml /opt/hadoop/etc/hadoop
 ADD hdfs-site.xml /opt/hadoop/etc/hadoop
 ADD mapred-env.sh /opt/hadoop/etc/hadoop
 ADD yarn-site.xml /opt/hadoop/etc/hadoop
-ADD yarn-env.sh /opt/hadoop/etc/hadoop
+#ADD yarn-env.sh /opt/hadoop/etc/hadoop
 #ADD hadoop-env.sh /opt/hadoop/etc/hadoop
 
 RUN chmod 777 /opt/hadoop/etc/hadoop/hadoop-env.sh
