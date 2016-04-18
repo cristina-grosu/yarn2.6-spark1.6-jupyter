@@ -23,7 +23,7 @@ RUN locale-gen en_US.UTF-8 && \
     echo 'LANG="en_US.UTF-8"' > /etc/default/locale
 
 # Add files.
-# ADD .bashrc /root/.bashrc
+ADD .bashrc /root/.bashrc
 
 # Install Java 8
 RUN cd opt && wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u72-b15/jdk-8u72-linux-x64.tar.gz" &&\
@@ -57,7 +57,7 @@ ADD yarn-env.sh /opt/hadoop/etc/hadoop
 ADD hadoop-env.sh /opt/hadoop/etc/hadoop
 
 RUN chmod 777 /opt/hadoop/etc/hadoop/hadoop-env.sh
-RUN ./opt/hadoop/etc/hadoop/hadoop-env.sh
+#RUN ./opt/hadoop/etc/hadoop/hadoop-env.sh
 
 # Install Spark 1.6.0
 RUN cd /opt && wget http://apache.javapipe.com/spark/spark-1.6.0/spark-1.6.0-bin-hadoop2.6.tgz 
