@@ -20,8 +20,8 @@
 <configuration>
 <property>
   <name>hadoop.security.authentication</name>
-   <value>kerberos</value> <!-- A value of "simple" would disable security. -->
-</property>
+   <value>kerberos</value> --><!-- A value of "simple" would disable security. -->
+<!-- </property>
 
 <property>
   <name>hadoop.security.authorization</name>
